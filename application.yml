@@ -1,8 +1,9 @@
 spring:
   datasource:
-    username: root
-    password: root
+    driverClassName: org.h2.Driver
+    username: sa
+    password: 
   jpa: 
    hibernate:
     ddl-auto: update
-   database-platform: org.hibernate.dialect.MySQL5Dialect
+   database-platform: org.hibernate.dialect.H2Dialect
